@@ -25,7 +25,7 @@ int pop()
         printf("Error:Stack Underflow\n");
         return -1;
     }
-    return stack[--top];
+    return stack[top--];
 }
 
 // Display
